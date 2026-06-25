@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>REXX STORE - ANTI REDUP</title>
+<title>REXX STORE - FF SULTAN</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -16,7 +16,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 20px;
     overflow-x: hidden;
 }
@@ -36,18 +35,17 @@ body::before {
     50% { transform: translateY(-20px); }
 }
 
-/* Marquee jalan */
 .marquee {
-    position: absolute;
-    top: 15px;
+    position: fixed;
+    top: 0;
     width: 100%;
     background: rgba(0,255,136,0.1);
-    border-top: 1px solid #00ff88;
     border-bottom: 1px solid #00ff88;
     padding: 8px 0;
     overflow: hidden;
     font-size: 12px;
     color: #00ff88;
+    z-index: 10;
 }
 .marquee span {
     display: inline-block;
@@ -70,12 +68,7 @@ body::before {
     text-align: center;
     max-width: 400px;
     width: 100%;
-    animation: fadeIn 1s ease;
-    margin-top: 40px;
-}
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
+    margin-top: 60px;
 }
 
 .logo {
@@ -98,7 +91,6 @@ body::before {
 
 .sub { color: #aaa; font-size: 13px; margin-bottom: 15px; }
 
-/* Stats counter */
 .stats {
     display: flex;
     justify-content: space-around;
@@ -107,16 +99,8 @@ body::before {
     background: rgba(0,0,0,0.3);
     border-radius: 12px;
 }
-.stat h3 { 
-    color: #00ff88; 
-    font-size: 20px; 
-    font-weight: 800;
-}
-.stat p { 
-    color: #aaa; 
-    font-size: 11px; 
-    margin-top: 3px;
-}
+.stat h3 { color: #00ff88; font-size: 20px; font-weight: 800; }
+.stat p { color: #aaa; font-size: 11px; margin-top: 3px; }
 
 .btn {
     display: block;
@@ -124,7 +108,6 @@ body::before {
     padding: 15px;
     margin: 12px 0;
     background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 15px;
     color: white;
@@ -156,16 +139,14 @@ body::before {
 </head>
 <body>
 
-<!-- Marquee rame -->
 <div class="marquee">
-  <span>🔥 REXX STORE BUKA 24 JAM • STOK AMAN • GARANSI 1 BULAN • JOIN GRUP BUAT INFO RESTOK 🔥</span>
+  <span>🔥 REXX STORE BUKA 24 JAM • STOK FF SULTAN READY • GARANSI 1 BULAN • JOIN GRUP BUAT INFO RESTOK 🔥</span>
 </div>
 
 <div class="container">
   <h1 class="logo">REXX</h1>
-  <p class="sub">ANTI REDUP 🔥</p>
+  <p class="sub">FF SULTAN STORE 🔥</p>
 
-  <!-- Stats biar rame -->
   <div class="stats">
     <div class="stat">
       <h3 id="stok">247</h3>
@@ -186,14 +167,70 @@ body::before {
   <a href="#" class="btn">MASUK GRUP JB 🔥</a>
   <a href="#" class="btn">IKUTI SALURAN 📢</a>
   <a href="#" class="btn wa">CHAT ADMIN WA 💬</a>
+</div>
 
-  <div class="footer">
-    © 2026 REXX STORE • Terpercaya Se-Indonesia
+<!-- TESTI HD -->
+<div style="max-width:420px; margin:35px auto 20px; text-align:center; z-index:1;">
+  <h2 style="color:#00ff88; font-size:20px; margin-bottom:20px; font-weight:800; letter-spacing:1px; text-shadow:0 0 10px #00ff88;">💎 TESTIMONI BUYER REXX 💎</h2>
+  
+  <div style="background:#111; border:2px solid #00ff88; border-radius:14px; padding:14px 16px; margin:10px 0; text-align:left; box-shadow:0 0 15px rgba(0,255,136,0.4);">
+    <div style="display:flex; align-items:center; margin-bottom:8px;">
+      <div style="width:32px; height:32px; background:linear-gradient(135deg, #00ff88, #00ccff); border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:800; color:#000; font-size:14px;">FS</div>
+      <div style="margin-left:10px;">
+        <p style="font-size:13px; font-weight:700; color:#fff; margin:0;">@FF_Sultan</p>
+        <p style="font-size:11px; color:#00ff88; margin:0;">Verified Buyer ⭐⭐</p>
+      </div>
+    </div>
+    <p style="font-size:13px; color:#eee; line-height:1.5; margin:0;">"Bundle M1887 ijo masuk semua mas. Akun sesuai deskripsi, gak ada drama. REXX emang paling trusted!"</p>
+  </div>
+  
+  <div style="background:#111; border:2px solid #00ccff; border-radius:14px; padding:14px 16px; margin:10px 0; text-align:left; box-shadow:0 0 15px rgba(0,204,255,0.4);">
+    <div style="display:flex; align-items:center; margin-bottom:8px;">
+      <div style="width:32px; height:32px; background:linear-gradient(135deg, #00ccff, #8a2be2); border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:800; color:#000; font-size:14px;">BK</div>
+      <div style="margin-left:10px;">
+        <p style="font-size:13px; font-weight:700; color:#fff; margin:0;">@BooyahKing</p>
+        <p style="font-size:11px; color:#00ccff; margin:0;">Verified Buyer ⭐⭐</p>
+      </div>
+    </div>
+    <p style="font-size:13px; color:#eee; line-height:1.5; margin:0;">"Vault 500+ gila sih. SG2 Evo, SCAR Titan lengkap. Respon admin 1 detik. Gas terus REXX STORE!"</p>
+  </div>
+  
+  <div style="background:#111; border:2px solid orange; border-radius:14px; padding:14px 16px; margin:10px 0; text-align:left; box-shadow:0 0 15px rgba(255,165,0,0.4);">
+    <div style="display:flex; align-items:center; margin-bottom:8px;">
+      <div style="width:32px; height:32px; background:linear-gradient(135deg, orange, #ff4500); border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:800; color:#000; font-size:14px;">HO</div>
+      <div style="margin-left:10px;">
+        <p style="font-size:13px; font-weight:700; color:#fff; margin:0;">@HeadshotOnly</p>
+        <p style="font-size:11px; color:orange; margin:0;">Verified Buyer ⭐⭐</p>
+      </div>
+    </div>
+    <p style="font-size:13px; color:#eee; line-height:1.5; margin:0;">"Harga paling miring se-grup FF. Gak PHP, garansi 1 bulan beneran. Udah langganan dari 2024"</p>
   </div>
 </div>
 
+<!-- MUSIC PLAYER DJ BANGSAT -->
+<div style="max-width:400px; margin:20px auto 40px; text-align:center;">
+  <audio id="bgmusic" loop>
+    <source src="https://cdn.pixabay.com/download/audio/2024/12/10/audio_61b15aa0e4.mp3?filename=edm-hip-hop-future-bass-218517.mp3" type="audio/mpeg">
+  </audio>
+  
+  <p style="color:#00ff88; font-size:12px; margin-bottom:8px;">🔥 DJ BASS GLEER GLEER 🔥</p>
+  
+  <button onclick="document.getElementById('bgmusic').play()" 
+  style="background:linear-gradient(90deg, #ff00ff, #00ff88); border:none; border-radius:50px; padding:12px 25px; color:#000; font-weight:800; font-size:14px; cursor:pointer; box-shadow:0 0 25px rgba(255,0,255,0.6); margin:5px;">
+    🔊 GAS DJ
+  </button>
+  
+  <button onclick="document.getElementById('bgmusic').pause()" 
+  style="background:rgba(255,0,0,0.2); border:1px solid #ff0000; border-radius:50px; padding:12px 25px; color:#ff0000; font-weight:700; font-size:14px; cursor:pointer; margin:5px;">
+    ⏸️ DIEM
+  </button>
+</div>
+
+<div class="footer">
+  © 2026 REXX STORE • Terpercaya Se-Indonesia
+</div>
+
 <script>
-// Jam live
 function updateClock() {
   const now = new Date();
   document.getElementById('clock').textContent = now.toLocaleTimeString('id-ID');
@@ -201,7 +238,6 @@ function updateClock() {
 setInterval(updateClock, 1000);
 updateClock();
 
-// Counter stok animasi naik turun biar rame
 setInterval(() => {
   document.getElementById('stok').textContent = Math.floor(Math.random() * 50) + 220;
   document.getElementById('online').textContent = Math.floor(Math.random() * 40) + 70;
